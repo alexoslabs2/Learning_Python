@@ -1,5 +1,5 @@
 import random
-list = ["rock","paper","scissor","spock","lizard"]
+list = ["rock","paper","scissors","spock","lizard"]
 computer_choice = (random.choice(list))
 user_choice = input('Do you want - rock, paper, scissors, spock, or lizard?\n')
 if computer_choice == user_choice:
