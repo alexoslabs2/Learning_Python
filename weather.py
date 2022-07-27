@@ -17,7 +17,6 @@ def get_weather_desc_and_temp():
             'temp_min': temp_min,
             'temp_max': temp_max}
 
-
 def main():
     # Print the results
     weather_dict = get_weather_desc_and_temp()    
