@@ -1,7 +1,9 @@
 import random
+
 list = ["rock","paper","scissors","spock","lizard"]
 computer_choice = (random.choice(list))
 user_choice = input('Do you want - rock, paper, scissors, spock, or lizard?\n')
+
 if computer_choice == user_choice:
     print('Tie')
 elif user_choice == 'rock' and computer_choice == 'scissors':
